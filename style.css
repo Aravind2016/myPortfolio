@@ -80,6 +80,16 @@ nav ul li a:hover::after{
 }
 
 
+.header-text{
+    margin-top: 360px;
+}
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 15px;
+    }
+}
+
 /* ------------------About------------------ */
 
 #about{
@@ -293,6 +303,7 @@ nav ul li a:hover::after{
 .social-icons .insta:hover{
     color: #e34949;
 }
+
 .contact-right form{
     width: 100%;
 
@@ -316,6 +327,7 @@ form input, form textarea{
     border:1px solid green;
     padding:14px 50px;
     border-radius: 6px;
+    margin-top: 30px;
 
 } 
 form btn2{
@@ -326,7 +338,31 @@ form btn2{
    cursor:pointer;
 
 }
+.btnn{
+    
+    background-color: green;
+    display:inline-block;
+    
+    font-size: 18px;
+    align-self: auto;
+    color: #fff;
+    
+   
+    border-radius: 6px;
+    
+    
+    margin-top: 30px;
+}
 
+
+/* .btnn{
+    background-color: #ff004f;
+    border-radius: 20%;
+    color: white;
+    position: absolute;
+    
+    margin-left: 60px;
+} */
 /* -------------------css for ms----------- */
 nav .fas{
     display: none;
@@ -342,8 +378,14 @@ nav .fas{
         font-size: 16px;
         margin-bottom: 10px;
     }
+    
     .header-text h1{
         font-size: 30px;
+        color: #fff;
+    }
+    .header-text h1 span{
+        color: #fff;
+        animation: alternate;
     }
     nav .fas{
         display: block;
@@ -404,6 +446,7 @@ nav .fas{
         display: inline-block;
     
     }
+    
 }
 #msg{
     color: #61b752;
